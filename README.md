@@ -4,14 +4,45 @@
 
 mDNS Observatory combines passive packet analysis with active Bonjour browsing. Import a PCAP/PCAPNG or capture on a local interface, then explore devices, service instances, DNS records, and packet evidence in linked dashboard workspaces.
 
-## Highlights
+## See it in action
 
-- Dashboard summaries, time windows, chart drilldowns, and customizable panel layouts.
-- Live packet capture and PCAP/PCAPNG import, including ERSPAN-decapsulated mDNS evidence.
-- Service and device inspectors with explanations grounded in observed PTR, SRV, TXT, A, and AAAA records.
-- Bundled community-maintained DNS-SD service catalog, searchable offline and refreshable in the app.
-- Active Bonjour discovery from the dashboard, separate from passive capture.
-- Session save/open and report export.
+The Live traffic workspace shows packet-level evidence from a mirror capture, including DNS questions and responses, endpoints, VLAN context, record summaries, and hostnames.
+
+![Live traffic workspace with mDNS packet evidence](docs/images/live-traffic-overview.jpg)
+
+*Live traffic overview from a mirrored network capture.*
+
+![Expanded view of query and response rows](docs/images/live-traffic-rows.jpg)
+
+*Query and response rows make it easier to follow an individual DNS-SD exchange.*
+
+## Features
+
+### Capture and packet analysis
+
+- Import PCAP and PCAPNG files or capture mDNS traffic from a local interface.
+- Inspect query and response rows, endpoints, hostnames, VLAN context, packet sizes, and DNS questions/records.
+- Analyze mirrored traffic, including ERSPAN-decapsulated mDNS evidence.
+- Filter visible rows to find a specific service, device, record, or exchange.
+
+### Dashboard and investigation
+
+- Review traffic and service summaries over selectable time windows.
+- Drill into charts, devices, and services, with clear navigation back to the broader view.
+- Customize dashboard panel layouts and compare activity across the selected capture sources.
+- Inspect a device's observed services and related packet activity.
+
+### DNS-SD service intelligence
+
+- Understand service instances and the PTR, SRV, TXT, A, and AAAA records supporting each explanation.
+- Look up common service types using a bundled community-maintained catalog that works offline and can be refreshed in the app.
+- Start and stop active Bonjour discovery from the dashboard on macOS, separately from passive capture.
+
+### Save and share
+
+- Save and reopen analysis sessions.
+- Export reports for review and troubleshooting.
+- Review captured network metadata before sharing sessions or reports.
 
 ## Get the app
 
@@ -25,9 +56,16 @@ Download the Apple Silicon macOS build or Windows x64 build from the [v2.24.20 G
 
 See the [User Guide](docs/mDNS-Observatory-User-Guide-v2.24.20.docx) for capture, import, dashboard, DNS-SD, catalog, and discovery workflows.
 
-## Windows support
+## Platform support
 
-Windows supports PCAP/PCAPNG analysis and passive live capture. Install [Npcap](https://npcap.com/) to enable live packet capture; PCAP file analysis does not require Npcap. Active Bonjour browsing currently uses Apple's native DNS-SD library and is available on macOS only. The Windows app disables that control and explains the limitation.
+| Capability | macOS (Apple Silicon) | Windows (x64) |
+| --- | --- | --- |
+| PCAP/PCAPNG import and analysis | Yes | Yes |
+| Passive live packet capture | Yes, subject to capture permissions | Yes, with [Npcap](https://npcap.com/) installed |
+| Active Bonjour discovery | Yes | Not currently available |
+| Service catalog, dashboard, sessions, and reports | Yes | Yes |
+
+PCAP file analysis on Windows does not require Npcap. Install Npcap to enable live capture; if the app was already open during installation, restart it. Active Bonjour browsing currently uses Apple's native DNS-SD library, so the Windows app disables that control and explains the limitation.
 
 To build on Windows, use Python 3.12, install `requirements.txt` and PyInstaller, then package `mdns_snooper.py` with the service catalogs and `THIRD_PARTY_NOTICES.md`. The GitHub Actions workflow builds the Windows x64 release asset on a Windows runner.
 
