@@ -1,0 +1,2684 @@
+[
+  {
+    "name": "1Password Password Manager data sharing and synchronization protocol",
+    "type": "_1password._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: 1Password Password Manager data sharing and synchronization protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Altos Design Synchronization protocol",
+    "type": "_a-d-sync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Altos Design Synchronization protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Applied Biosystems Universal Instrument Framework",
+    "type": "_abi-instrument._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Applied Biosystems Universal Instrument Framework. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FTK2 Database Discovery Service",
+    "type": "_accessdata-f2d._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FTK2 Database Discovery Service. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FTK2 Backend Processing Agent Service",
+    "type": "_accessdata-f2w._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FTK2 Backend Processing Agent Service. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Strix Systems 5S/AccessOne protocol",
+    "type": "_accessone._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Strix Systems 5S/AccessOne protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MYOB AccountEdge",
+    "type": "_accountedge._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MYOB AccountEdge. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Adobe Acrobat",
+    "type": "_acrobatsrv._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Adobe Acrobat. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ActionItems",
+    "type": "_actionitems._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ActionItems. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Encrypted transport of Active Storage Proprietary Device Management Protocol",
+    "type": "_activeraid-ssl._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Encrypted transport of Active Storage Proprietary Device Management Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Active Storage Proprietary Device Management Protocol",
+    "type": "_activeraid._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Active Storage Proprietary Device Management Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Address-O-Matic",
+    "type": "_addressbook._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Address-O-Matic. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Automatic Disk Discovery",
+    "type": "_adisk._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Automatic Disk Discovery. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Adobe Version Cue",
+    "type": "_adobe-vc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Adobe Version Cue. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ADPRO Security Device Setup",
+    "type": "_adpro-setup._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ADPRO Security Device Setup. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple Application Engineering Services",
+    "type": "_aecoretech._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple Application Engineering Services. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Aeroflex instrumentation and software",
+    "type": "_aeroflex._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Aeroflex instrumentation and software. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple File Sharing",
+    "type": "_afpovertcp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple File Sharing. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple AirPlay for streaming audio/video",
+    "type": "_airplay._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple AirPlay for streaming audio/video. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "AirPort Base Station",
+    "type": "_airport._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: AirPort Base Station. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "AirProjector",
+    "type": "_airprojector._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: AirProjector. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Air Sharing",
+    "type": "_airsharing._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Air Sharing. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Air Sharing Pro",
+    "type": "_airsharingpro._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Air Sharing Pro. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Ambarella Cameras",
+    "type": "_amba-cam._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Ambarella Cameras. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "P2PTapWar Sample Application from \"iPhone SDK Development\" Book",
+    "type": "_amiphd-p2p._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: P2PTapWar Sample Application from \"iPhone SDK Development\" Book. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Animo Batch Server",
+    "type": "_animobserver._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Animo Batch Server. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Animo License Manager",
+    "type": "_animolmd._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Animo License Manager. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Anquet map synchronization between desktop and handheld devices",
+    "type": "_anquetsync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Anquet map synchronization between desktop and handheld devices. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Appelezvous",
+    "type": "_appelezvous._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Appelezvous. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple Audio Units",
+    "type": "_apple-ausend._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple Audio Units. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple MIDI",
+    "type": "_apple-midi._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple MIDI. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple Password Server",
+    "type": "_apple-sasl._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple Password Server. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple Remote Debug Services (OpenGL Profiler)",
+    "type": "_applerdbg._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple Remote Debug Services (OpenGL Profiler). This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple TV discovery of iTunes",
+    "type": "_appletv-itunes._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple TV discovery of iTunes. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple TV Pairing",
+    "type": "_appletv-pair._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple TV Pairing. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple TV",
+    "type": "_appletv._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple TV. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "AquaMon",
+    "type": "_aquamon._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: AquaMon. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple Software Restore",
+    "type": "_asr._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple Software Restore. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Asterisk Caller-ID Notification Service",
+    "type": "_astnotify._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Asterisk Caller-ID Notification Service. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Astralite",
+    "type": "_astralite._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Astralite. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "address-o-sync",
+    "type": "_async._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: address-o-sync. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Atlassian Application discovery service",
+    "type": "_atlassianapp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Atlassian Application discovery service. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Authentication Service",
+    "type": "_auth._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Authentication Service. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Allen Vanguard Hardware Service",
+    "type": "_av._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Allen Vanguard Hardware Service. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Axis Video Cameras",
+    "type": "_axis-video._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Axis Video Cameras. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "3M Unitek Digital Orthodontic System",
+    "type": "_b3d-convince._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: 3M Unitek Digital Orthodontic System. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BabyPhone",
+    "type": "_babyphone._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BabyPhone. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Bedside Scanner",
+    "type": "_bdsk._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Bedside Scanner. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Beacon",
+    "type": "_beacon._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Beacon. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Beamer",
+    "type": "_beamer._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Beamer. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BeatPack",
+    "type": "_beatpack._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BeatPack. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BEEP Protocol",
+    "type": "_beep._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BEEP Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BitTorrent File Transfer Protocol",
+    "type": "_bfagent._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BitTorrent File Transfer Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Big Bang Chess",
+    "type": "_bigbangchess._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Big Bang Chess. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Big Bang Mancala",
+    "type": "_bigbangmancala._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Big Bang Mancala. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BitTorrent",
+    "type": "_bittorrent._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BitTorrent. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BlackBook",
+    "type": "_blackbook._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BlackBook. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BlueVertise",
+    "type": "_bluevertise._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BlueVertise. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Bookworm",
+    "type": "_bookworm._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Bookworm. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Bootstrap Protocol Server",
+    "type": "_bootps._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Bootstrap Protocol Server. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Boundary Scan",
+    "type": "_boundaryscan._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Boundary Scan. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BOUSG",
+    "type": "_bousg._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BOUSG. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BRI",
+    "type": "_bri._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BRI. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Backup! Server",
+    "type": "_bsqdea._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Backup! Server. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "BusyCal",
+    "type": "_busycal._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: BusyCal. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CalTalk",
+    "type": "_caltalk._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CalTalk. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CardSend",
+    "type": "_cardsend._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CardSend. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CCTV",
+    "type": "_cctv._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CCTV. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Cheat",
+    "type": "_cheat._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Cheat. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Chess",
+    "type": "_chess._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Chess. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CHFTS",
+    "type": "_chfts._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CHFTS. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Chili",
+    "type": "_chili._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Chili. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CIP4 Discovery",
+    "type": "_cip4discovery._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CIP4 Discovery. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Clipboard",
+    "type": "_clipboard._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Clipboard. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Clique",
+    "type": "_clique._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Clique. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CLSCTS",
+    "type": "_clscts._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CLSCTS. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Collection",
+    "type": "_collection._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Collection. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Microsoft OCS Enhanced Presence",
+    "type": "_com-ocs-es-mcc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Microsoft OCS Enhanced Presence. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Contact Server",
+    "type": "_contactserver._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Contact Server. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Corroboree",
+    "type": "_corroboree._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Corroboree. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Canon Photo Notebook 2",
+    "type": "_cpnotebook2._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Canon Photo Notebook 2. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CVS pserver",
+    "type": "_cvspserver._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CVS pserver. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CodeTap",
+    "type": "_cw-codetap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CodeTap. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DPI Tap",
+    "type": "_cw-dpitap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DPI Tap. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "OnceTap",
+    "type": "_cw-oncetap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: OnceTap. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "PowerTap",
+    "type": "_cw-powertap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: PowerTap. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "CyTV",
+    "type": "_cytv._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: CyTV. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iTunes Sharing",
+    "type": "_daap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iTunes Sharing. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Digital Audio Control Protocol",
+    "type": "_dacp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Digital Audio Control Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Dance Partner",
+    "type": "_dancepartner._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Dance Partner. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Data Turbine",
+    "type": "_dataturbine._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Data Turbine. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Generic device information service",
+    "type": "_device-info._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Generic device information service. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DIFI",
+    "type": "_difi._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DIFI. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Disconnect",
+    "type": "_disconnect._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Disconnect. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "OpenCL Distributed",
+    "type": "_dist-opencl._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: OpenCL Distributed. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DistCC",
+    "type": "_distcc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DistCC. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DitriOS",
+    "type": "_ditrios._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DitriOS. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Dive Log Sync",
+    "type": "_divelogsync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Dive Log Sync. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DL Time Sync",
+    "type": "_dltimesync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DL Time Sync. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DNS LLQ",
+    "type": "_dns-llq._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DNS LLQ. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DNS-SD",
+    "type": "_dns-sd._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DNS-SD. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DNS Update",
+    "type": "_dns-update._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DNS Update. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Domain",
+    "type": "_domain._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Domain. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DOP",
+    "type": "_dop._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DOP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Dossier",
+    "type": "_dossier._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Dossier. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Digital Photos Access Protocol",
+    "type": "_dpap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Digital Photos Access Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Drop Copy",
+    "type": "_dropcopy._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Drop Copy. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DSL Sync",
+    "type": "_dsl-sync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DSL Sync. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DTRMT Desktop",
+    "type": "_dtrmtdesktop._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DTRMT Desktop. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DVB Service Discovery",
+    "type": "_dvbservdsc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DVB Service Discovery. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "DXTG Sync",
+    "type": "_dxtgsync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: DXTG Sync. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EA DT TX Poker",
+    "type": "_ea-dttx-poker._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EA DT TX Poker. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Earphoria",
+    "type": "_earphoria._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Earphoria. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EB Amuzi",
+    "type": "_eb-amuzi._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EB Amuzi. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EBMS",
+    "type": "_ebms._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EBMS. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EBREG",
+    "type": "_ebreg._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EBREG. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ECB Yes FSG KSC",
+    "type": "_ecbyesfsgksc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ECB Yes FSG KSC. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ECMS",
+    "type": "_ecms._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ECMS. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EDCP",
+    "type": "_edcp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EDCP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Egistix",
+    "type": "_egistix._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Egistix. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EHeap",
+    "type": "_eheap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EHeap. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Embrace",
+    "type": "_embrace._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Embrace. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EP",
+    "type": "_ep._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Apple Events",
+    "type": "_eppc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Apple Events. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ERP Scale",
+    "type": "_erp-scale._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ERP Scale. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ESP",
+    "type": "_esp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ESP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Eucalyptus",
+    "type": "_eucalyptus._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Eucalyptus. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Event Server",
+    "type": "_eventserver._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Event Server. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EVS Notification",
+    "type": "_evs-notif._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EVS Notification. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EWallet Sync",
+    "type": "_ewalletsync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EWallet Sync. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Example",
+    "type": "_example._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Example. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Exec",
+    "type": "_exec._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Exec. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Extensis SN",
+    "type": "_extensissn._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Extensis SN. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "EyeTV SN",
+    "type": "_eyetvsn._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: EyeTV SN. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FaceSpan",
+    "type": "_facespan._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FaceSpan. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Fairview",
+    "type": "_fairview._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Fairview. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FaxStFX",
+    "type": "_faxstfx._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FaxStFX. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Feed Sharing",
+    "type": "_feed-sharing._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Feed Sharing. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FireTask",
+    "type": "_firetask._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FireTask. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Fish",
+    "type": "_fish._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Fish. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FIX",
+    "type": "_fix._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FIX. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Fjork",
+    "type": "_fjork._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Fjork. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FL Purr",
+    "type": "_fl-purr._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FL Purr. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FMPro Internal",
+    "type": "_fmpro-internal._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FMPro Internal. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FM Server Admin",
+    "type": "_fmserver-admin._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FM Server Admin. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FontAgent Node",
+    "type": "_fontagentnode._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FontAgent Node. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Foxtrot Serv",
+    "type": "_foxtrot-serv._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Foxtrot Serv. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Foxtrot Start",
+    "type": "_foxtrot-start._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Foxtrot Start. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FrameForge Lic",
+    "type": "_frameforge-lic._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FrameForge Lic. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FreeHand",
+    "type": "_freehand._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FreeHand. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Frog",
+    "type": "_frog._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Frog. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "File Transfer Protocol",
+    "type": "_ftp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: File Transfer Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FTPCroco",
+    "type": "_ftpcroco._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FTPCroco. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FV Cert",
+    "type": "_fv-cert._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FV Cert. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FV Key",
+    "type": "_fv-key._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FV Key. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "FV Time",
+    "type": "_fv-time._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: FV Time. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GaragePad",
+    "type": "_garagepad._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GaragePad. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GBS SMP",
+    "type": "_gbs-smp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GBS SMP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GBS STP",
+    "type": "_gbs-stp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GBS STP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GForce SSMP",
+    "type": "_gforce-ssmp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GForce SSMP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GlassPad",
+    "type": "_glasspad._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GlassPad. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GlassPadServer",
+    "type": "_glasspadserver._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GlassPadServer. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GLRDrvMon",
+    "type": "_glrdrvmon._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GLRDrvMon. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GPnP",
+    "type": "_gpnp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GPnP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GrillezVous",
+    "type": "_grillezvous._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GrillezVous. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Growl",
+    "type": "_growl._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Growl. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "GUID",
+    "type": "_guid._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: GUID. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "H.323",
+    "type": "_h323._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: H.323. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Helix",
+    "type": "_helix._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Helix. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Help",
+    "type": "_help._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Help. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HG",
+    "type": "_hg._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HG. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Hinz",
+    "type": "_hinz._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Hinz. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HMCP",
+    "type": "_hmcp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HMCP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Home Sharing",
+    "type": "_home-sharing._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Home Sharing. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HomeAuto",
+    "type": "_homeauto._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HomeAuto. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Honeywell VID",
+    "type": "_honeywell-vid._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Honeywell VID. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Hotwayd",
+    "type": "_hotwayd._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Hotwayd. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Howdy",
+    "type": "_howdy._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Howdy. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HPR BLD LNX",
+    "type": "_hpr-bldlnx._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HPR BLD LNX. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HPR BLD WIN",
+    "type": "_hpr-bldwin._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HPR BLD WIN. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HPR DB",
+    "type": "_hpr-db._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HPR DB. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HPR REP",
+    "type": "_hpr-rep._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HPR REP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HPR Tool LNX",
+    "type": "_hpr-toollnx._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HPR Tool LNX. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HPR Tool WIN",
+    "type": "_hpr-toolwin._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HPR Tool WIN. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HPR TST LNX",
+    "type": "_hpr-tstlnx._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HPR TST LNX. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HPR TST WIN",
+    "type": "_hpr-tstwin._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HPR TST WIN. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HS Off",
+    "type": "_hs-off._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HS Off. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HTSP",
+    "type": "_htsp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HTSP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Web server (HTTP)",
+    "type": "_http._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Web server (HTTP). This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Secure Web server (HTTPS)",
+    "type": "_https._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Secure Web server (HTTPS). This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Hydra",
+    "type": "_hydra._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Hydra. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "HyperStream",
+    "type": "_hyperstream._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: HyperStream. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "IAX",
+    "type": "_iax._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: IAX. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iBiz",
+    "type": "_ibiz._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iBiz. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ICA Networking",
+    "type": "_ica-networking._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ICA Networking. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ICAN",
+    "type": "_ican._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ICAN. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iChalkboard",
+    "type": "_ichalkboard._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iChalkboard. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iChat",
+    "type": "_ichat._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iChat. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iConquer",
+    "type": "_iconquer._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iConquer. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iData",
+    "type": "_idata._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iData. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ID Sync",
+    "type": "_idsync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ID Sync. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iFolder",
+    "type": "_ifolder._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iFolder. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iHouse",
+    "type": "_ihouse._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iHouse. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "II Drills",
+    "type": "_ii-drills._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: II Drills. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "II Konane",
+    "type": "_ii-konane._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: II Konane. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iLynx",
+    "type": "_ilynx._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iLynx. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "IMAP",
+    "type": "_imap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: IMAP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iMidi",
+    "type": "_imidi._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iMidi. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Indigo DVR",
+    "type": "_indigo-dvr._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Indigo DVR. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Inova OnTrack",
+    "type": "_inova-ontrack._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Inova OnTrack. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "IP Broadcaster",
+    "type": "_ipbroadcaster._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: IP Broadcaster. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Internet Printing Protocol",
+    "type": "_ipp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Internet Printing Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "IPSpeaker",
+    "type": "_ipspeaker._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: IPSpeaker. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iRelay",
+    "type": "_irelay._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iRelay. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "IRMC",
+    "type": "_irmc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: IRMC. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iSCSI",
+    "type": "_iscsi._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iSCSI. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iShare",
+    "type": "_ishare._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iShare. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iSparx",
+    "type": "_isparx._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iSparx. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ISPQ VC",
+    "type": "_ispq-vc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ISPQ VC. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iSticky",
+    "type": "_isticky._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iSticky. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iStorm",
+    "type": "_istorm._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iStorm. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iTIS Device",
+    "type": "_itis-device._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iTIS Device. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iTunes Socket Remote Control",
+    "type": "_itsrc._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iTunes Socket Remote Control. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Inter VTS Exchange Format",
+    "type": "_ivef._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Inter VTS Exchange Format. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "iWork Server",
+    "type": "_iwork._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: iWork Server. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Northrup Grumman/TASC/JCAN Protocol",
+    "type": "_jcan._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Northrup Grumman/TASC/JCAN Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "JEdit X",
+    "type": "_jeditx._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: JEdit X. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Jini",
+    "type": "_jini._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Jini. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "JTAG",
+    "type": "_jtag._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: JTAG. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Kerberos Admin",
+    "type": "_kerberos-adm._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Kerberos Admin. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Kerberos",
+    "type": "_kerberos._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Kerberos. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "KTP",
+    "type": "_ktp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: KTP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Labyrinth",
+    "type": "_labyrinth._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Labyrinth. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LAN2P",
+    "type": "_lan2p._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LAN2P. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LanRevAgent",
+    "type": "_lanrevagent._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LanRevAgent. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LanRevServer",
+    "type": "_lanrevserver._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LanRevServer. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Lapse",
+    "type": "_lapse._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Lapse. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LDAP",
+    "type": "_ldap._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LDAP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Leaf",
+    "type": "_leaf._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Leaf. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Lexicon",
+    "type": "_lexicon._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Lexicon. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Liaison",
+    "type": "_liaison._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Liaison. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Library",
+    "type": "_library._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Library. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LLRP Secure",
+    "type": "_llrp-secure._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LLRP Secure. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LLRP",
+    "type": "_llrp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LLRP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Lobby",
+    "type": "_lobby._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Lobby. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LogicNode",
+    "type": "_logicnode._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LogicNode. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Login",
+    "type": "_login._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Login. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LonBridge",
+    "type": "_lonbridge._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LonBridge. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LonTalk",
+    "type": "_lontalk._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LonTalk. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LonWorks",
+    "type": "_lonworks._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LonWorks. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LSYS AppServer",
+    "type": "_lsys-appserver._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LSYS AppServer. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LSYS Camera",
+    "type": "_lsys-camera._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LSYS Camera. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LSYS EZCFG",
+    "type": "_lsys-ezcfg._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LSYS EZCFG. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LSYS OAMP",
+    "type": "_lsys-oamp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LSYS OAMP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LUX DTP",
+    "type": "_lux-dtp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LUX DTP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "LXI",
+    "type": "_lxi._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: LXI. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Lyrics",
+    "type": "_lyrics._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Lyrics. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MacFOH Admin",
+    "type": "_macfoh-admin._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MacFOH Admin. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MacFOH Audio",
+    "type": "_macfoh-audio._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MacFOH Audio. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MacFOH Data",
+    "type": "_macfoh-data._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MacFOH Data. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MacFOH DB",
+    "type": "_macfoh-db._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MacFOH DB. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MacFOH Events",
+    "type": "_macfoh-events._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MacFOH Events. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MacFOH Remote",
+    "type": "_macfoh-remote._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MacFOH Remote. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MacFOH",
+    "type": "_macfoh._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MacFOH. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MacMinder",
+    "type": "_macminder._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MacMinder. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Maestro",
+    "type": "_maestro._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Maestro. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Magic Dice",
+    "type": "_magicdice._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Magic Dice. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Mandos",
+    "type": "_mandos._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Mandos. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Matrix",
+    "type": "_matrix._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Matrix. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MB Consumer",
+    "type": "_mbconsumer._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MB Consumer. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MB Producer",
+    "type": "_mbproducer._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MB Producer. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MB Server",
+    "type": "_mbserver._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MB Server. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MConnect",
+    "type": "_mconnect._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MConnect. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MCRCP",
+    "type": "_mcrcp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MCRCP. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MediaBoard1",
+    "type": "_mediaboard1._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MediaBoard1. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MesAmis",
+    "type": "_mesamis._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MesAmis. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MI RaySat",
+    "type": "_mi-raysat._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MI RaySat. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Mimer",
+    "type": "_mimer._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Mimer. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "ModolanSrv",
+    "type": "_modolansrv._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: ModolanSrv. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MoneySync",
+    "type": "_moneysync._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MoneySync. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MoneyWorks",
+    "type": "_moneyworks._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MoneyWorks. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MoodRing",
+    "type": "_moodring._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MoodRing. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Mother",
+    "type": "_mother._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Mother. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MovieSlate",
+    "type": "_movieslate._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MovieSlate. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MP3Sushi",
+    "type": "_mp3sushi._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MP3Sushi. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MQTT",
+    "type": "_mqtt._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MQTT. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "MSLingshot",
+    "type": "_mslingshot._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: MSLingshot. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Mumble",
+    "type": "_mumble._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Mumble. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Remote Audio Output Protocol",
+    "type": "_raop._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Remote Audio Output Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Remote Desktop Link",
+    "type": "_rdlink._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Remote Desktop Link. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Remote Desktop Protocol",
+    "type": "_rdp._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Remote Desktop Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "SSH File Transfer Protocol",
+    "type": "_sftp-ssh._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: SSH File Transfer Protocol. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Sonos",
+    "type": "_sonos._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Sonos. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Spotify Connect",
+    "type": "_spotify-connect._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Spotify Connect. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Spotify Social Listening",
+    "type": "_spotify-social-listening._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Spotify Social Listening. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Secure Shell",
+    "type": "_ssh._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Secure Shell. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "WLED",
+    "type": "_wled._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: WLED. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  },
+  {
+    "name": "Workstation",
+    "type": "_workstation._tcp",
+    "transport": "TCP",
+    "category": "Community",
+    "description": "Community catalog description: Workstation. This reference may be incomplete or outdated; verify against vendor documentation and the observed SRV/TXT data before making network changes.",
+    "r1": "Community reference only; verify in your RUCKUS One tenant",
+    "catalog_source": "bbusse/mdns-discover"
+  }
+]

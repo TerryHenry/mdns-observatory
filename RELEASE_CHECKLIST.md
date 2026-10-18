@@ -1,12 +1,22 @@
-# mDNS Observatory v2.22.0 release checklist
+# Release checklist — v2.24.20
 
-- [ ] Run `python3 -m py_compile *.py tests/*.py`.
-- [ ] Run `python3 tests/run_regression_suite.py /path/to/capture.pcapng`.
-- [ ] Confirm temporal analytics distinguishes candidate response observations from no matching response observed.
-- [ ] Confirm recurring patterns require repeated observations across multiple time windows.
-- [ ] Confirm one-window bursts are not described as persistent problems.
-- [ ] Double-click a temporal pattern and verify packet evidence opens in Live traffic.
-- [ ] Confirm a capture without parseable timestamps shows a clear unavailable state.
-- [ ] Launch on macOS using `START-MAC.command`.
-- [ ] Build and launch `dist/mDNS Observatory.app` using `BUILD-MAC-APP.command`.
-- [ ] Confirm all existing workspaces and session import/export still work.
+## Included in this release
+
+- Searchable community-maintained DNS-SD catalog with in-app update workflow.
+- Curated service explanations take precedence over community descriptions.
+- Dashboard discovery control, named drilldown navigation, service/device explanations, and DNS-SD help.
+- PCAP/PCAPNG import and passive capture with ERSPAN-aware evidence handling.
+- User guide at `docs/mDNS-Observatory-User-Guide-v2.24.20.docx`.
+
+## Verify before publishing a new build
+
+- [ ] Validate import of representative PCAP and PCAPNG files, including a capture containing mDNS frames.
+- [ ] Confirm capture-source filtering and ERSPAN-decapsulated traffic on the target Mac and network adapter.
+- [ ] Confirm active Bonjour discovery starts/stops and remains distinct from passive packet capture.
+- [ ] Refresh the community catalog; verify validation, preview, approval, and offline use.
+- [ ] Review service/device explanations against observed PTR, SRV, TXT, A, and AAAA evidence.
+- [ ] Confirm session save/open and report export.
+- [ ] Build and launch the app on native Apple Silicon macOS.
+- [ ] Review the final release asset and notes; the app bundle is not signed or notarized.
+
+Do not commit packet captures, support bundles, credentials, or live network data.

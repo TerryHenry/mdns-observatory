@@ -1,29 +1,41 @@
 # mDNS Observatory
 
-A macOS-focused desktop application for observing and troubleshooting multicast DNS (mDNS) and DNS-Based Service Discovery (DNS-SD).
+**Current version: 2.24.20** · macOS app for observing and troubleshooting multicast DNS (mDNS) and DNS-Based Service Discovery (DNS-SD).
 
-## v2.22.0
+mDNS Observatory combines passive packet analysis with active Bonjour browsing. Import a PCAP/PCAPNG or capture on a local interface, then explore devices, service instances, DNS records, and packet evidence in linked dashboard workspaces.
 
-- Time-windowed analysis of discovery queries and matching response candidates.
-- Recurring query pattern grouping across capture-relative time windows.
-- Plain-language findings and guided troubleshooting.
-- DNS-SD service relationship analysis, capture-quality diagnostics, packet investigation, and capture comparison.
-- Evidence drill-down to supporting packets.
+## Highlights
 
-This tool analyzes what was observed in a capture. A candidate response does not prove a client received a multicast response or that an application worked. A missing response or service record is not proof that a service is down.
+- Dashboard summaries, time windows, chart drilldowns, and customizable panel layouts.
+- Live packet capture and PCAP/PCAPNG import, including ERSPAN-decapsulated mDNS evidence.
+- Service and device inspectors with explanations grounded in observed PTR, SRV, TXT, A, and AAAA records.
+- Bundled community-maintained DNS-SD service catalog, searchable offline and refreshable in the app.
+- Active Bonjour discovery from the dashboard, separate from passive capture.
+- Session save/open and report export.
 
-## Run on macOS
+## Get the app
 
-1. Download or clone this repository.
-2. Install Python 3 and the dependencies in `requirements.txt`.
-3. Run `START-MAC.command` to launch from source.
-4. Or run `BUILD-MAC-APP.command` to build `dist/mDNS Observatory.app`.
+Download the Apple Silicon build from the [v2.24.20 GitHub release](https://github.com/TerryHenry/mdns-observatory/releases/tag/v2.24.20). The app bundle is not code-signed or notarized; macOS may show a security prompt.
 
-The native app bundle is not code-signed or notarized. macOS may display a security prompt; inspect the source before running.
+## Run from source
+
+1. Clone this repository and install Python 3 on macOS.
+2. Run `START-MAC.command` to launch the app from source. The launcher prepares an isolated environment using the project requirements.
+3. Run `BUILD-MAC-APP.command` to build `dist/mDNS Observatory.app`.
+
+See the [User Guide](docs/mDNS-Observatory-User-Guide-v2.24.20.docx) for capture, import, dashboard, DNS-SD, catalog, and discovery workflows.
+
+## Service catalog
+
+The app combines curated explanations with the community-maintained `bbusse/mdns-discover` reference. Curated app entries take precedence when descriptions overlap. Catalog matches are informational: they do not prove a device's identity or that a service was used successfully. Upstream attribution and license details are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Evidence and privacy
+
+This tool describes what was observed in a capture. An advertised service does not prove that a client connected, and a missing record does not prove that a service is unavailable. Captures and reports can contain hostnames, service names, MAC/IP addresses, and other network metadata. Review them before sharing. Do not commit packet captures, support bundles, credentials, or live network data.
 
 ## Tests
 
-Compile the source and tests:
+Compile source and tests:
 
 ```bash
 python3 -m py_compile *.py tests/*.py
@@ -35,10 +47,3 @@ Run the regression suite with a capture file:
 python3 tests/run_regression_suite.py /path/to/capture.pcapng
 ```
 
-## Privacy
-
-Captures and reports may contain hostnames, service names, MAC/IP addresses, and other network metadata. Review evidence before sharing. Avoid committing packet captures, support bundles, credentials, or live network data.
-
-## Version
-
-Current packaged source: **v2.22.0**.
