@@ -1,6 +1,6 @@
 # mDNS Observatory
 
-**Current version: 2.24.20** · macOS app for observing and troubleshooting multicast DNS (mDNS) and DNS-Based Service Discovery (DNS-SD).
+**Current version: 2.24.20** · desktop app for observing and troubleshooting multicast DNS (mDNS) and DNS-Based Service Discovery (DNS-SD) on macOS and Windows.
 
 mDNS Observatory combines passive packet analysis with active Bonjour browsing. Import a PCAP/PCAPNG or capture on a local interface, then explore devices, service instances, DNS records, and packet evidence in linked dashboard workspaces.
 
@@ -15,7 +15,7 @@ mDNS Observatory combines passive packet analysis with active Bonjour browsing. 
 
 ## Get the app
 
-Download the Apple Silicon build from the [v2.24.20 GitHub release](https://github.com/TerryHenry/mdns-observatory/releases/tag/v2.24.20). The app bundle is not code-signed or notarized; macOS may show a security prompt.
+Download the Apple Silicon macOS build or Windows x64 build from the [v2.24.20 GitHub release](https://github.com/TerryHenry/mdns-observatory/releases/tag/v2.24.20). Neither application is code-signed. macOS may show a security prompt; Windows may show SmartScreen.
 
 ## Run from source
 
@@ -24,6 +24,12 @@ Download the Apple Silicon build from the [v2.24.20 GitHub release](https://gith
 3. Run `BUILD-MAC-APP.command` to build `dist/mDNS Observatory.app`.
 
 See the [User Guide](docs/mDNS-Observatory-User-Guide-v2.24.20.docx) for capture, import, dashboard, DNS-SD, catalog, and discovery workflows.
+
+## Windows support
+
+Windows supports PCAP/PCAPNG analysis and passive live capture. Install [Npcap](https://npcap.com/) to enable live packet capture; PCAP file analysis does not require Npcap. Active Bonjour browsing currently uses Apple's native DNS-SD library and is available on macOS only. The Windows app disables that control and explains the limitation.
+
+To build on Windows, use Python 3.12, install `requirements.txt` and PyInstaller, then package `mdns_snooper.py` with the service catalogs and `THIRD_PARTY_NOTICES.md`. The GitHub Actions workflow builds the Windows x64 release asset on a Windows runner.
 
 ## Service catalog
 

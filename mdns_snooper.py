@@ -82,6 +82,10 @@ except Exception:
 
 
 def now_iso(): return datetime.now().astimezone().isoformat(timespec="seconds")
+def app_icon_path():
+    icon = "resources/mDNS-Observatory.ico" if os.name == "nt" else "resources/mDNS-Observatory.icns"
+    return str(resource_path(icon, __file__))
+
 def decode_name(value):
     if isinstance(value, bytes): return value.decode("utf-8", "replace").rstrip(".")
     return str(value or "").rstrip(".")
@@ -545,6 +549,10 @@ class Dashboard(QWidget):
         controls.addWidget(QLabel("Filter")); self.filter_text=QLineEdit(); self.filter_text.setPlaceholderText("Filter IP, service, destination, VLAN or record…"); self.filter_text.setToolTip("Filter the passive packet charts by matching IPs, service names, destinations, VLANs, DNS record names, and related packet details. Active Bonjour discovery charts are independent."); controls.addWidget(self.filter_text,1)
         self.customize_btn=QPushButton("Customize dashboard…"); self.customize_btn.setObjectName("secondary"); controls.addWidget(self.customize_btn)
         self.discovery_btn=QPushButton("Start active discovery"); self.discovery_btn.setToolTip("Start or stop live Bonjour (DNS-SD) service browsing. This is independent of passive packet capture and does not transmit test traffic."); controls.addWidget(self.discovery_btn)
+        if sys.platform != "darwin":
+            self.discovery_btn.setText("Active discovery (macOS only)")
+            self.discovery_btn.setToolTip("Active Bonjour browsing currently uses Apple's native DNS-SD library and is available on macOS only. Passive capture and PCAP analysis are available on Windows.")
+            self.discovery_btn.setEnabled(False)
         self.summary=QLabel("Live traffic insights · click a source or destination bar to investigate"); self.summary.setStyleSheet("color:#aab7c7;padding:4px 2px;")
         self.drilldown_banner=QFrame()
         self.drilldown_banner.setObjectName("metric")
@@ -969,7 +977,7 @@ class ConversationMap(QWidget):
 
 class MainWindow(QMainWindow):
     def __init__(self):
-        super().__init__(); self.setWindowTitle(APP_NAME + " " + APP_VERSION); self.setWindowIcon(QIcon(str(resource_path("resources/mDNS-Observatory.icns", __file__)))); self.resize(1360,860); self.an=Analyzer(); self.bus=Bus(); self.bus.changed.connect(self.refresh); self.bus.status.connect(self.set_status); self.bus.discovery_event.connect(self.handle_discovery_event); self.bus.capture_finished.connect(self.capture_finished); self.bus.discovery_finished.connect(self.discovery_finished); self.bus.catalog_update_finished.connect(self.on_community_catalog_fetched); self.capture=None; self.browser=None; self.active_results={}; self.discovery_events=[]; self._comparison_cache_key=None; self._comparison_data=[]
+        super().__init__(); self.setWindowTitle(APP_NAME + " " + APP_VERSION); self.setWindowIcon(QIcon(app_icon_path())); self.resize(1360,860); self.an=Analyzer(); self.bus=Bus(); self.bus.changed.connect(self.refresh); self.bus.status.connect(self.set_status); self.bus.discovery_event.connect(self.handle_discovery_event); self.bus.capture_finished.connect(self.capture_finished); self.bus.discovery_finished.connect(self.discovery_finished); self.bus.catalog_update_finished.connect(self.on_community_catalog_fetched); self.capture=None; self.browser=None; self.active_results={}; self.discovery_events=[]; self._comparison_cache_key=None; self._comparison_data=[]
         self.setStyleSheet("""
         QMainWindow, QWidget { background:#10151d; color:#e9eef5; font-size:13px; }
         QLabel#hero {font-size:25px;font-weight:700;color:#f4f7fb;} QLabel#sub {color:#9eacbd;font-size:12px;}
@@ -995,7 +1003,7 @@ class MainWindow(QMainWindow):
         root.setSizePolicy(QSizePolicy.Policy.Ignored, QSizePolicy.Policy.Preferred)
         app_scroll.setWidget(root)
         layout=QVBoxLayout(root); layout.setContentsMargins(22,18,22,16); layout.setSpacing(13)
-        head=QHBoxLayout(); left=QVBoxLayout(); title=QLabel("mDNS Observatory"); title.setObjectName("hero"); subtitle=QLabel("Passive packet intelligence + active Bonjour discovery · macOS edition"); subtitle.setObjectName("sub"); left.addWidget(title); left.addWidget(subtitle); head.addLayout(left); head.addStretch()
+        head=QHBoxLayout(); left=QVBoxLayout(); title=QLabel("mDNS Observatory"); title.setObjectName("hero"); subtitle=QLabel("Passive mDNS analysis · active Bonjour discovery on macOS"); subtitle.setObjectName("sub"); left.addWidget(title); left.addWidget(subtitle); head.addLayout(left); head.addStretch()
         self.iface=QComboBox(); self.iface.setMinimumWidth(190); self.populate_interfaces(); head.addWidget(QLabel("Interface")); head.addWidget(self.iface)
         head.addWidget(QLabel("Traffic source"))
         self.source_filter=QComboBox(); self.source_filter.setObjectName("trafficSourceFilter")
@@ -1084,6 +1092,10 @@ class MainWindow(QMainWindow):
         active=QWidget(); al=QVBoxLayout(active); al.setContentsMargins(10,10,10,10)
         controls=QHBoxLayout(); self.discovery_types=QLineEdit(); self.discovery_types.setPlaceholderText("Optional service types, comma-separated (blank = common types)"); self.discovery_types.setToolTip("Examples: _airplay._tcp, _ipp._tcp, _googlecast._tcp")
         controls.addWidget(self.discovery_types,1); self.browse_btn=QPushButton("Start Bonjour discovery"); self.browse_btn.clicked.connect(self.toggle_browse); controls.addWidget(self.browse_btn)
+        if sys.platform != "darwin":
+            self.browse_btn.setText("Bonjour discovery (macOS only)")
+            self.browse_btn.setToolTip("Active Bonjour browsing currently uses Apple's native DNS-SD library and is available on macOS only.")
+            self.browse_btn.setEnabled(False)
         clear_disc=QPushButton("Clear discoveries"); clear_disc.setObjectName("secondary"); clear_disc.clicked.connect(self.clear_discoveries); controls.addWidget(clear_disc); al.addLayout(controls)
         note=QLabel("Uses Apple's DNS-SD browsing and resolution APIs. Active browse results are independent of the passive Traffic Source filter; the filter only affects captured/imported packets and their derived analysis. Packet counts remain passive capture only."); note.setObjectName("sub"); al.addWidget(note)
         self.active_table=self.make_table(["Service instance","Service type","Host target","Port","TXT metadata","Interface","Status","Last seen"]); al.addWidget(self.active_table,1); self.tabs.addTab(active,"Active discovery")
@@ -1513,7 +1525,7 @@ class MainWindow(QMainWindow):
         if self.capture and self.capture.is_alive():
             self.an.stop_event.set(); self.start_btn.setText("Start capture"); self.bus.status.emit("Stopping capture…"); return
         if not SCAPY_OK:
-            QMessageBox.warning(self,"Capture unavailable","Scapy is not installed. Run START-MAC.command, then restart the app."); return
+            QMessageBox.warning(self,"Capture unavailable","Scapy is not installed. Reinstall the app dependencies, then restart the app."); return
         # Skip the reset prompt when there is nothing to clear.
         with self.an.lock:
             has_previous_results = bool(
@@ -1625,7 +1637,7 @@ class MainWindow(QMainWindow):
         active_text = "Stopping Bonjour…" if stopping else ("Stop Bonjour discovery" if running else "Start Bonjour discovery")
         for button, label in ((self.browse_btn, active_text), (self.dashboard.discovery_btn, text)):
             button.setText(label)
-            button.setEnabled(not stopping)
+            button.setEnabled(sys.platform == "darwin" and not stopping)
     def toggle_browse(self):
         if self.browser and self.browser.thread and self.browser.thread.is_alive():
             self.set_discovery_controls(True, stopping=True)
@@ -2674,7 +2686,7 @@ class MainWindow(QMainWindow):
         elif discovery_diag.get("event_counts"):
             out += ["", "BONJOUR DISCOVERY", f"Events recorded: {sum(discovery_diag['event_counts'].values())}; no discovery errors recorded."]
         if s.get("capture_started") and not s.get("diagnostics", {}).get("frames_seen"):
-            out += ["", "LIVE CAPTURE CHECK", "No frames have reached the decoder. Check interface selection and macOS packet-capture permissions. A running status alone does not prove packets are being received."]
+            out += ["", "LIVE CAPTURE CHECK", "No frames have reached the decoder. Check the selected interface and the operating system's packet-capture backend and permissions. On Windows, verify Npcap is installed. A running status alone does not prove packets are being received."]
         out += ["", "RECORD TYPES"]
         out += [f"• {k}: {v}" for k,v in sorted(s['record_types'].items(),key=lambda x:x[1],reverse=True)] or ["• No records parsed yet"]
         out += ["", "DESTINATIONS"]
@@ -2764,5 +2776,5 @@ class MainWindow(QMainWindow):
         event.accept()
 
 def main():
-    app=QApplication(sys.argv); app.setApplicationName(APP_NAME); app.setWindowIcon(QIcon(str(resource_path("resources/mDNS-Observatory.icns", __file__)))); app.setFont(QFont("SF Pro Text",10)); w=MainWindow(); w.show(); sys.exit(app.exec())
+    app=QApplication(sys.argv); app.setApplicationName(APP_NAME); app.setWindowIcon(QIcon(app_icon_path())); app.setFont(QFont("SF Pro Text" if sys.platform == "darwin" else "Segoe UI",10)); w=MainWindow(); w.show(); sys.exit(app.exec())
 if __name__=="__main__": main()

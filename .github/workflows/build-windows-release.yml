@@ -1,0 +1,61 @@
+name: Build Windows release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Check out release source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m pip install -r requirements.txt pyinstaller pillow
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Create Windows icon
+        shell: pwsh
+        run: python -c 'from PIL import Image; Image.open("resources/mDNS-Observatory-1024.png").convert("RGBA").save("resources/mDNS-Observatory.ico", format="ICO", sizes=[(16,16),(32,32),(48,48),(64,64),(128,128),(256,256)])'
+
+      - name: Package application
+        shell: pwsh
+        run: >-
+          pyinstaller --noconfirm --clean --windowed --name "mDNS Observatory"
+          --icon "resources/mDNS-Observatory.ico"
+          --add-data "resources/mDNS-Observatory.ico;resources"
+          --add-data "resources/mDNS-Observatory-1024.png;resources"
+          --add-data "service_catalog.json;."
+          --add-data "community_service_catalog.json;."
+          --add-data "THIRD_PARTY_NOTICES.md;."
+          --collect-all scapy
+          --hidden-import scapy.arch.libpcap
+          mdns_snooper.py
+
+      - name: Create Windows x64 ZIP
+        shell: pwsh
+        run: Compress-Archive -LiteralPath "dist/mDNS Observatory" -DestinationPath "dist/mDNS-Observatory-v2.24.20-Windows-x64.zip" -CompressionLevel Optimal
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mDNS-Observatory-v2.24.20-Windows-x64
+          path: dist/mDNS-Observatory-v2.24.20-Windows-x64.zip
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Attach ZIP to GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload v2.24.20 "dist/mDNS-Observatory-v2.24.20-Windows-x64.zip" --clobber --repo $env:GITHUB_REPOSITORY
