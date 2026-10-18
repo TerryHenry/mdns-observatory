@@ -47,14 +47,6 @@ jobs:
         shell: pwsh
         run: Compress-Archive -LiteralPath "dist/mDNS Observatory" -DestinationPath "dist/mDNS-Observatory-v2.24.20-Windows-x64.zip" -CompressionLevel Optimal
 
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: mDNS-Observatory-v2.24.20-Windows-x64
-          path: dist/mDNS-Observatory-v2.24.20-Windows-x64.zip
-          if-no-files-found: error
-          retention-days: 14
-
       - name: Attach ZIP to GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
