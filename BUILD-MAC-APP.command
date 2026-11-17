@@ -26,6 +26,7 @@ if ! pyinstaller --noconfirm --clean --windowed --name "mDNS Observatory" \
   --add-data "service_catalog.json:." \
   --add-data "community_service_catalog.json:." \
   --add-data "THIRD_PARTY_NOTICES.md:." \
+  --add-data "LICENSE:." \
   --collect-all scapy \
   --hidden-import scapy.arch.libpcap \
   mdns_snooper.py; then

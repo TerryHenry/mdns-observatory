@@ -67,7 +67,7 @@ See the [User Guide](docs/mDNS-Observatory-User-Guide-v2.24.20.docx) for capture
 
 PCAP file analysis on Windows does not require Npcap. Install Npcap to enable live capture; if the app was already open during installation, restart it. Active Bonjour browsing currently uses Apple's native DNS-SD library, so the Windows app disables that control and explains the limitation.
 
-To build on Windows, use Python 3.12, install `requirements.txt` and PyInstaller, then package `mdns_snooper.py` with the service catalogs and `THIRD_PARTY_NOTICES.md`. The GitHub Actions workflow builds the Windows x64 release asset on a Windows runner.
+To build on Windows, use Python 3.12, install `requirements.txt` and PyInstaller, then package `mdns_snooper.py` with the service catalogs, `THIRD_PARTY_NOTICES.md`, and `LICENSE`. The GitHub Actions workflow builds the Windows x64 release asset on a Windows runner.
 
 ## Service catalog
 
@@ -90,4 +90,8 @@ Run the regression suite with a capture file:
 ```bash
 python3 tests/run_regression_suite.py /path/to/capture.pcapng
 ```
+
+## License
+
+mDNS Observatory is released under the [MIT License](LICENSE). The release builds bundle third-party components under their own licenses, including Qt/PySide6 (LGPL v3) and Scapy (GPL v2). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for details.
 
